@@ -57,17 +57,16 @@ composer create-project symfony/website-skeleton symfony-react-project
 
 The preceding command will install the new Symfony application successfully on your computer.
 
-
 ## Start the application
 
-Start the application using the built-in Symfony PHP web server by changing directory into the newly created project. Run the following command to start the application:
+Start the application using the built-in Symfony Local Web Server changing directory into the newly created project. Run the following command to start the application:
 
 ```bash
 // Change directory
 cd symfony-react-project
 
 // Start the server
-php bin/console server:run
+symfony server:start
 ```
 
 Open your browser and navigate to `http://localhost:8000` to view the welcome page. The version displayed here is the current one for Symfony at the time of writing, which might not be the same as yours:
